@@ -1,0 +1,221 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Logger"
+provides-nominal:
+- "C9LeanCloud6Logger"
+provides-member:
+- ["C9LeanCloud6Logger", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "??"
+- "AssignmentPrecedence"
+- !private "Date"
+- "DateFormatter"
+- "Int"
+- "Logger"
+- "NSLocale"
+- !private "NSURL"
+- "String"
+- "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "print"
+depends-member:
+- !private ["Ps9AnyObject", "Date"]
+- ["Ps9AnyObject", "DateFormatter"]
+- ["Ps9AnyObject", "Logger"]
+- ["Ps9AnyObject", "NSLocale"]
+- !private ["Ps9AnyObject", "NSURL"]
+- ["Ps9AnyObject", "current"]
+- ["Ps9AnyObject", "dateFormat"]
+- !private ["Ps9AnyObject", "dateFormatter"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "lastPathComponent"]
+- ["Ps9AnyObject", "locale"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "string"]
+- ["Ps9AnyObject", ""]
+- ["Ps7CVarArg", "current"]
+- ["Ps7CVarArg", "dateFormat"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "lastPathComponent"]
+- ["Ps7CVarArg", "locale"]
+- !private ["Ps7CVarArg", "string"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "current"]
+- ["Ps28CustomDebugStringConvertible", "dateFormat"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "lastPathComponent"]
+- ["Ps28CustomDebugStringConvertible", "locale"]
+- !private ["Ps28CustomDebugStringConvertible", "string"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "lastPathComponent"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "current"]
+- ["Ps23CustomStringConvertible", "dateFormat"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "lastPathComponent"]
+- ["Ps23CustomStringConvertible", "locale"]
+- !private ["Ps23CustomStringConvertible", "string"]
+- !private ["V10Foundation4Date", "init"]
+- ["CSo13DateFormatter", "dateFormat"]
+- ["CSo13DateFormatter", "init"]
+- ["CSo13DateFormatter", "locale"]
+- !private ["CSo13DateFormatter", "string"]
+- ["Ps9Equatable", "current"]
+- ["Ps9Equatable", "dateFormat"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "lastPathComponent"]
+- ["Ps9Equatable", "locale"]
+- !private ["Ps9Equatable", "string"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["CSo9Formatter", "dateFormat"]
+- ["CSo9Formatter", "init"]
+- ["CSo9Formatter", "locale"]
+- !private ["CSo9Formatter", "string"]
+- ["Ps8Hashable", "current"]
+- ["Ps8Hashable", "dateFormat"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "lastPathComponent"]
+- ["Ps8Hashable", "locale"]
+- !private ["Ps8Hashable", "string"]
+- !private ["P9LeanCloud17LCDateConvertible", "init"]
+- ["P9LeanCloud19LCStringConvertible", "init"]
+- ["P9LeanCloud18LCValueConvertible", "init"]
+- !private ["C9LeanCloud6Logger", "Date"]
+- ["C9LeanCloud6Logger", "DateFormatter"]
+- ["C9LeanCloud6Logger", "Int"]
+- ["C9LeanCloud6Logger", "Logger"]
+- ["C9LeanCloud6Logger", "NSLocale"]
+- !private ["C9LeanCloud6Logger", "NSURL"]
+- ["C9LeanCloud6Logger", "String"]
+- ["C9LeanCloud6Logger", "dateFormatter"]
+- ["C9LeanCloud6Logger", "defaultLogger"]
+- ["C9LeanCloud6Logger", "deinit"]
+- ["C9LeanCloud6Logger", "init"]
+- ["C9LeanCloud6Logger", "log"]
+- !private ["C9LeanCloud6Logger", "print"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "current"]
+- ["PSo8NSCoding", "dateFormat"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "lastPathComponent"]
+- ["PSo8NSCoding", "locale"]
+- !private ["PSo8NSCoding", "string"]
+- ["PSo9NSCopying", "current"]
+- ["PSo9NSCopying", "dateFormat"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "lastPathComponent"]
+- ["PSo9NSCopying", "locale"]
+- !private ["PSo9NSCopying", "string"]
+- ["CSo8NSLocale", "current"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "current"]
+- ["CSo8NSObject", "dateFormat"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "lastPathComponent"]
+- ["CSo8NSObject", "locale"]
+- !private ["CSo8NSObject", "string"]
+- ["PSo16NSObjectProtocol", "current"]
+- ["PSo16NSObjectProtocol", "dateFormat"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "lastPathComponent"]
+- ["PSo16NSObjectProtocol", "locale"]
+- !private ["PSo16NSObjectProtocol", "string"]
+- ["PSo14NSSecureCoding", "current"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "lastPathComponent"]
+- ["CSo8NSString", "init"]
+- !private ["CSo5NSURL", "init"]
+- !private ["CSo5NSURL", "lastPathComponent"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["P9Alamofire14URLConvertible", "init"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "current"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "lastPathComponent"]
+- ["Ps9_Hashable", "current"]
+- ["Ps9_Hashable", "dateFormat"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "lastPathComponent"]
+- ["Ps9_Hashable", "locale"]
+- !private ["Ps9_Hashable", "string"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "V10Foundation4Date"
+- "CSo13DateFormatter"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "CSo9Formatter"
+- "Ps8Hashable"
+- !private "P9LeanCloud17LCDateConvertible"
+- "P9LeanCloud19LCStringConvertible"
+- "P9LeanCloud18LCValueConvertible"
+- "C9LeanCloud6Logger"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo8NSLocale"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "CSo5NSURL"
+- !private "P10Foundation20ReferenceConvertible"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "P9Alamofire14URLConvertible"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/mac/Desktop/Young\u5FC3\u7406/DerivedData/Young\u5FC3\u7406/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mac/Desktop/Young\u5FC3\u7406/Pods/Target Support Files/LeanCloud/LeanCloud-umbrella.h"
+- "/Users/mac/Desktop/Young\u5FC3\u7406/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/mac/Desktop/Young\u5FC3\u7406/DerivedData/Young\u5FC3\u7406/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/mac/Desktop/Young\u5FC3\u7406/DerivedData/Young\u5FC3\u7406/Build/Intermediates/Pods.build/Debug-iphonesimulator/LeanCloud.build/unextended-module.modulemap"
+- "/Users/mac/Desktop/Young\u5FC3\u7406/DerivedData/Young\u5FC3\u7406/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+interface-hash: "70878e0c6a37955158f15b25117dfb09"

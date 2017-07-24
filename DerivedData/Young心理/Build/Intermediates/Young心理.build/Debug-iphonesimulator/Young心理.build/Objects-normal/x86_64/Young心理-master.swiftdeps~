@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "e6d2afeb9af5a024eef02ab62d71ec38"
+build_time: [554181718, 565870000]
+inputs:
+  "/Users/mac/Desktop/Young\u5FC3\u7406/Young\u5FC3\u7406/LoginAndRegistrationViewController.swift": [554177828, 0]
+  "/Users/mac/Desktop/Young\u5FC3\u7406/Young\u5FC3\u7406/ViewController.swift": [553920623, 0]
+  "/Users/mac/Desktop/Young\u5FC3\u7406/Young\u5FC3\u7406/VerifyByEmailViewController.swift": !dirty [554181718, 0]
+  "/Users/mac/Desktop/Young\u5FC3\u7406/Young\u5FC3\u7406/ChangePasswordViewController.swift": !dirty [9223372036854775807, 0]
+  "/Users/mac/Desktop/Young\u5FC3\u7406/Young\u5FC3\u7406/AppDelegate.swift": [553920623, 0]
+  "/Users/mac/Desktop/Young\u5FC3\u7406/Young\u5FC3\u7406/VerifyPhoneNumberViewController.swift": !dirty [554181413, 0]

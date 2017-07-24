@@ -1,0 +1,875 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Operation"
+- "OperationStack"
+- "OperationTable"
+- "OperationTableList"
+- "OperationHub"
+- "OperationReducer"
+provides-nominal:
+- "C9LeanCloud9Operation"
+- "OC9LeanCloud9Operation4Name"
+- "C9LeanCloud12OperationHub"
+- "C9LeanCloud16OperationReducer"
+- "CC9LeanCloud16OperationReducer3Key"
+- "CC9LeanCloud16OperationReducer6Number"
+- "CC9LeanCloud16OperationReducer5Array"
+- "CC9LeanCloud16OperationReducer8Relation"
+provides-member:
+- ["C9LeanCloud9Operation", ""]
+- ["OC9LeanCloud9Operation4Name", ""]
+- ["C9LeanCloud12OperationHub", ""]
+- ["C9LeanCloud16OperationReducer", ""]
+- ["CC9LeanCloud16OperationReducer3Key", ""]
+- ["CC9LeanCloud16OperationReducer6Number", ""]
+- ["CC9LeanCloud16OperationReducer5Array", ""]
+- ["CC9LeanCloud16OperationReducer8Relation", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "..<"
+- "=="
+- !private "==="
+- !private ">"
+- "AnyObject"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "Dictionary"
+- !private "LCArray"
+- !private "LCError"
+- !private "LCNumber"
+- "LCObject"
+- !private "LCRelation"
+- "LCValue"
+- !private "LCValueExtension"
+- !private "NSString"
+- !private "ObjectProfiler"
+- "Operation"
+- "OperationHub"
+- "OperationReducer"
+- "OperationStack"
+- "OperationTable"
+- "OperationTableList"
+- "Set"
+- "String"
+- "StringLiteralType"
+- !private "Swift"
+- "TernaryPrecedence"
+- !private "||"
+- !private "~="
+depends-member:
+- !private ["Ps9AnyObject", "Array"]
+- !private ["Ps9AnyObject", "CompareOptions"]
+- !private ["Ps9AnyObject", "Key"]
+- !private ["Ps9AnyObject", "LCArray"]
+- !private ["Ps9AnyObject", "LCError"]
+- !private ["Ps9AnyObject", "LCNumber"]
+- !private ["Ps9AnyObject", "LCRelation"]
+- ["Ps9AnyObject", "Name"]
+- !private ["Ps9AnyObject", "Number"]
+- !private ["Ps9AnyObject", "ObjectProfiler"]
+- !private ["Ps9AnyObject", "Operation"]
+- !private ["Ps9AnyObject", "OperationReducer"]
+- !private ["Ps9AnyObject", "Relation"]
+- !private ["Ps9AnyObject", "Swift"]
+- !private ["Ps9AnyObject", "addObjects"]
+- !private ["Ps9AnyObject", "concatenate"]
+- !private ["Ps9AnyObject", "differ"]
+- !private ["Ps9AnyObject", "extractOperationTable"]
+- !private ["Ps9AnyObject", "getLCValue"]
+- !private ["Ps9AnyObject", "hasObjects"]
+- !private ["Ps9AnyObject", "hasOperation"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "key"]
+- !private ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "object"]
+- !private ["Ps9AnyObject", "operation"]
+- !private ["Ps9AnyObject", "operationReducerTable"]
+- !private ["Ps9AnyObject", "operationReducerType"]
+- !private ["Ps9AnyObject", "operationStack"]
+- !private ["Ps9AnyObject", "operationTable"]
+- !private ["Ps9AnyObject", "operations"]
+- !private ["Ps9AnyObject", "range"]
+- !private ["Ps9AnyObject", "reduce"]
+- !private ["Ps9AnyObject", "reducerType"]
+- !private ["Ps9AnyObject", "removeEmptyOperation"]
+- !private ["Ps9AnyObject", "removeObjects"]
+- !private ["Ps9AnyObject", "reset"]
+- !private ["Ps9AnyObject", "setOperation"]
+- !private ["Ps9AnyObject", "unreducedOperationTable"]
+- !private ["Ps9AnyObject", "validOperationNames"]
+- !private ["Ps9AnyObject", "validate"]
+- !private ["Ps9AnyObject", "validateKey"]
+- !private ["Ps9AnyObject", "value"]
+- ["Ps9AnyObject", ""]
+- ["CC9LeanCloud16OperationReducer5Array", "Bool"]
+- !private ["CC9LeanCloud16OperationReducer5Array", "LCArray"]
+- ["CC9LeanCloud16OperationReducer5Array", "Operation"]
+- ["CC9LeanCloud16OperationReducer5Array", "Set"]
+- !private ["CC9LeanCloud16OperationReducer5Array", "Swift"]
+- ["CC9LeanCloud16OperationReducer5Array", "addObjects"]
+- ["CC9LeanCloud16OperationReducer5Array", "deinit"]
+- ["CC9LeanCloud16OperationReducer5Array", "hasObjects"]
+- ["CC9LeanCloud16OperationReducer5Array", "hasOperation"]
+- ["CC9LeanCloud16OperationReducer5Array", "init"]
+- ["CC9LeanCloud16OperationReducer5Array", "operationTable"]
+- ["CC9LeanCloud16OperationReducer5Array", "operations"]
+- ["CC9LeanCloud16OperationReducer5Array", "reduce"]
+- ["CC9LeanCloud16OperationReducer5Array", "removeEmptyOperation"]
+- ["CC9LeanCloud16OperationReducer5Array", "removeObjects"]
+- ["CC9LeanCloud16OperationReducer5Array", "reset"]
+- ["CC9LeanCloud16OperationReducer5Array", "setOperation"]
+- ["CC9LeanCloud16OperationReducer5Array", "validOperationNames"]
+- !private ["CC9LeanCloud16OperationReducer5Array", "validate"]
+- ["CC9LeanCloud16OperationReducer5Array", ""]
+- !private ["Sa", "append"]
+- !private ["Sa", "contains"]
+- !private ["Sa", "count"]
+- !private ["Sa", "first"]
+- !private ["Sa", "init"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "contains"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "first"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "isEmpty"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Ps17BitwiseOperations", "invalidType"]
+- !private ["Ps17BitwiseOperations", "malformedData"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "CompareOptions"]
+- !private ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "concatenate"]
+- !private ["Ps7CVarArg", "contains"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "differ"]
+- !private ["Ps7CVarArg", "first"]
+- !private ["Ps7CVarArg", "forEach"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "invalidType"]
+- !private ["Ps7CVarArg", "isEmpty"]
+- !private ["Ps7CVarArg", "malformedData"]
+- !private ["Ps7CVarArg", "range"]
+- !private ["Ps7CVarArg", "removeValue"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "value"]
+- !private ["Ps7CVarArg", "values"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "concatenate"]
+- !private ["Ps10Collection", "contains"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "differ"]
+- !private ["Ps10Collection", "first"]
+- !private ["Ps10Collection", "forEach"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "isEmpty"]
+- !private ["Ps10Collection", "removeValue"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Collection", "value"]
+- !private ["Ps10Collection", "values"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "invalidType"]
+- !private ["Ps10Comparable", "malformedData"]
+- !private ["Ps10Comparable", "range"]
+- !private ["VCSo8NSString14CompareOptions", "caseInsensitive"]
+- !private ["VCSo8NSString14CompareOptions", "regularExpression"]
+- !private ["Ps28CustomDebugStringConvertible", "CompareOptions"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "concatenate"]
+- !private ["Ps28CustomDebugStringConvertible", "contains"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "differ"]
+- !private ["Ps28CustomDebugStringConvertible", "first"]
+- !private ["Ps28CustomDebugStringConvertible", "forEach"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "range"]
+- !private ["Ps28CustomDebugStringConvertible", "removeValue"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
+- !private ["Ps28CustomDebugStringConvertible", "values"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "CompareOptions"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "invalidType"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "malformedData"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "range"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "contains"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "first"]
+- !private ["Ps17CustomReflectable", "forEach"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "invalidType"]
+- !private ["Ps17CustomReflectable", "isEmpty"]
+- !private ["Ps17CustomReflectable", "malformedData"]
+- !private ["Ps17CustomReflectable", "range"]
+- !private ["Ps17CustomReflectable", "removeValue"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "values"]
+- !private ["Ps23CustomStringConvertible", "CompareOptions"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "concatenate"]
+- !private ["Ps23CustomStringConvertible", "contains"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "differ"]
+- !private ["Ps23CustomStringConvertible", "first"]
+- !private ["Ps23CustomStringConvertible", "forEach"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "invalidType"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "malformedData"]
+- !private ["Ps23CustomStringConvertible", "range"]
+- !private ["Ps23CustomStringConvertible", "removeValue"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- !private ["Ps23CustomStringConvertible", "values"]
+- !private ["Vs10Dictionary", "forEach"]
+- !private ["Vs10Dictionary", "isEmpty"]
+- !private ["Vs10Dictionary", "removeValue"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Vs10Dictionary", "values"]
+- !private ["Ps9Equatable", "CompareOptions"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "add"]
+- ["Ps9Equatable", "addRelation"]
+- ["Ps9Equatable", "addUnique"]
+- !private ["Ps9Equatable", "caseInsensitive"]
+- !private ["Ps9Equatable", "concatenate"]
+- ["Ps9Equatable", "delete"]
+- !private ["Ps9Equatable", "differ"]
+- !private ["Ps9Equatable", "forEach"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "increment"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "invalidType"]
+- !private ["Ps9Equatable", "malformedData"]
+- !private ["Ps9Equatable", "range"]
+- ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "regularExpression"]
+- ["Ps9Equatable", "remove"]
+- ["Ps9Equatable", "removeRelation"]
+- ["Ps9Equatable", "set"]
+- !private ["Ps9Equatable", "value"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps25ExpressibleByArrayLiteral", "caseInsensitive"]
+- !private ["Ps25ExpressibleByArrayLiteral", "concatenate"]
+- !private ["Ps25ExpressibleByArrayLiteral", "contains"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "differ"]
+- !private ["Ps25ExpressibleByArrayLiteral", "first"]
+- !private ["Ps25ExpressibleByArrayLiteral", "forEach"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "isEmpty"]
+- !private ["Ps25ExpressibleByArrayLiteral", "regularExpression"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps25ExpressibleByArrayLiteral", "value"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "forEach"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "isEmpty"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "removeValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "values"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "CompareOptions"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "range"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "invalidType"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "malformedData"]
+- !private ["Ps26ExpressibleByStringLiteral", "CompareOptions"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "range"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "CompareOptions"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "range"]
+- !private ["Ps8Hashable", "CompareOptions"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "add"]
+- ["Ps8Hashable", "addRelation"]
+- ["Ps8Hashable", "addUnique"]
+- !private ["Ps8Hashable", "concatenate"]
+- ["Ps8Hashable", "delete"]
+- !private ["Ps8Hashable", "differ"]
+- !private ["Ps8Hashable", "forEach"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "increment"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "invalidType"]
+- !private ["Ps8Hashable", "malformedData"]
+- !private ["Ps8Hashable", "range"]
+- ["Ps8Hashable", "rawValue"]
+- ["Ps8Hashable", "remove"]
+- ["Ps8Hashable", "removeRelation"]
+- ["Ps8Hashable", "set"]
+- !private ["Ps8Hashable", "value"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Si", "invalidType"]
+- !private ["Si", "malformedData"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps7Integer", "invalidType"]
+- !private ["Ps7Integer", "malformedData"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "invalidType"]
+- !private ["Ps17IntegerArithmetic", "malformedData"]
+- !private ["OV9LeanCloud7LCError17InternalErrorCode", "invalidType"]
+- !private ["OV9LeanCloud7LCError17InternalErrorCode", "malformedData"]
+- ["CC9LeanCloud16OperationReducer3Key", "Operation"]
+- ["CC9LeanCloud16OperationReducer3Key", "deinit"]
+- ["CC9LeanCloud16OperationReducer3Key", "init"]
+- ["CC9LeanCloud16OperationReducer3Key", "operation"]
+- ["CC9LeanCloud16OperationReducer3Key", "operations"]
+- ["CC9LeanCloud16OperationReducer3Key", "reduce"]
+- ["CC9LeanCloud16OperationReducer3Key", "validOperationNames"]
+- !private ["C9LeanCloud7LCArray", "concatenate"]
+- !private ["C9LeanCloud7LCArray", "deinit"]
+- !private ["C9LeanCloud7LCArray", "differ"]
+- !private ["C9LeanCloud7LCArray", "value"]
+- !private ["P9LeanCloud18LCArrayConvertible", "append"]
+- !private ["P9LeanCloud18LCArrayConvertible", "concatenate"]
+- !private ["P9LeanCloud18LCArrayConvertible", "contains"]
+- !private ["P9LeanCloud18LCArrayConvertible", "count"]
+- !private ["P9LeanCloud18LCArrayConvertible", "differ"]
+- !private ["P9LeanCloud18LCArrayConvertible", "first"]
+- !private ["P9LeanCloud18LCArrayConvertible", "init"]
+- !private ["P9LeanCloud18LCArrayConvertible", "isEmpty"]
+- !private ["P9LeanCloud18LCArrayConvertible", "subscript"]
+- !private ["P9LeanCloud18LCArrayConvertible", "value"]
+- !private ["P9LeanCloud17LCBoolConvertible", "_getBuiltinLogicValue"]
+- !private ["P9LeanCloud23LCDictionaryConvertible", "forEach"]
+- !private ["P9LeanCloud23LCDictionaryConvertible", "isEmpty"]
+- !private ["P9LeanCloud23LCDictionaryConvertible", "removeValue"]
+- !private ["P9LeanCloud23LCDictionaryConvertible", "subscript"]
+- !private ["P9LeanCloud23LCDictionaryConvertible", "values"]
+- !private ["V9LeanCloud7LCError", "deinit"]
+- !private ["V9LeanCloud7LCError", "init"]
+- !private ["P9LeanCloud19LCNumberConvertible", "hashValue"]
+- !private ["P9LeanCloud19LCNumberConvertible", "invalidType"]
+- !private ["P9LeanCloud19LCNumberConvertible", "malformedData"]
+- !private ["P9LeanCloud19LCStringConvertible", "CompareOptions"]
+- ["P9LeanCloud19LCStringConvertible", "init"]
+- !private ["P9LeanCloud19LCStringConvertible", "range"]
+- !private ["P9LeanCloud7LCValue", "concatenate"]
+- !private ["P9LeanCloud7LCValue", "copy"]
+- !private ["P9LeanCloud7LCValue", "differ"]
+- !private ["P9LeanCloud7LCValue", "value"]
+- !private ["P9LeanCloud18LCValueConvertible", "CompareOptions"]
+- !private ["P9LeanCloud18LCValueConvertible", "_getBuiltinLogicValue"]
+- !private ["P9LeanCloud18LCValueConvertible", "append"]
+- !private ["P9LeanCloud18LCValueConvertible", "concatenate"]
+- !private ["P9LeanCloud18LCValueConvertible", "contains"]
+- !private ["P9LeanCloud18LCValueConvertible", "count"]
+- !private ["P9LeanCloud18LCValueConvertible", "differ"]
+- !private ["P9LeanCloud18LCValueConvertible", "first"]
+- !private ["P9LeanCloud18LCValueConvertible", "forEach"]
+- !private ["P9LeanCloud18LCValueConvertible", "hashValue"]
+- ["P9LeanCloud18LCValueConvertible", "init"]
+- !private ["P9LeanCloud18LCValueConvertible", "invalidType"]
+- !private ["P9LeanCloud18LCValueConvertible", "isEmpty"]
+- !private ["P9LeanCloud18LCValueConvertible", "malformedData"]
+- !private ["P9LeanCloud18LCValueConvertible", "range"]
+- !private ["P9LeanCloud18LCValueConvertible", "removeValue"]
+- !private ["P9LeanCloud18LCValueConvertible", "subscript"]
+- !private ["P9LeanCloud18LCValueConvertible", "value"]
+- !private ["P9LeanCloud18LCValueConvertible", "values"]
+- !private ["P9LeanCloud16LCValueExtension", "add"]
+- !private ["P9LeanCloud16LCValueExtension", "concatenate"]
+- !private ["P9LeanCloud16LCValueExtension", "differ"]
+- !private ["P9LeanCloud16LCValueExtension", "lconValue"]
+- !private ["P9LeanCloud16LCValueExtension", "value"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "range"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "invalidType"]
+- !private ["Ps10MirrorPath", "malformedData"]
+- !private ["Ps10MirrorPath", "range"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "contains"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "first"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "isEmpty"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["PSo8NSCoding", "CompareOptions"]
+- !private ["PSo8NSCoding", "concatenate"]
+- !private ["PSo8NSCoding", "copy"]
+- !private ["PSo8NSCoding", "differ"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "range"]
+- !private ["PSo8NSCoding", "value"]
+- !private ["PSo9NSCopying", "CompareOptions"]
+- !private ["PSo9NSCopying", "concatenate"]
+- !private ["PSo9NSCopying", "copy"]
+- !private ["PSo9NSCopying", "differ"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "range"]
+- !private ["PSo9NSCopying", "value"]
+- !private ["PSo16NSMutableCopying", "CompareOptions"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "range"]
+- !private ["CSo8NSObject", "CompareOptions"]
+- !private ["CSo8NSObject", "concatenate"]
+- !private ["CSo8NSObject", "differ"]
+- !private ["CSo8NSObject", "range"]
+- !private ["CSo8NSObject", "value"]
+- !private ["PSo16NSObjectProtocol", "CompareOptions"]
+- !private ["PSo16NSObjectProtocol", "concatenate"]
+- !private ["PSo16NSObjectProtocol", "copy"]
+- !private ["PSo16NSObjectProtocol", "differ"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "range"]
+- !private ["PSo16NSObjectProtocol", "value"]
+- !private ["PSo14NSSecureCoding", "CompareOptions"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "range"]
+- !private ["CSo8NSString", "CompareOptions"]
+- ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "range"]
+- ["OC9LeanCloud9Operation4Name", "RawValue"]
+- ["OC9LeanCloud9Operation4Name", "_toAnyHashable"]
+- ["OC9LeanCloud9Operation4Name", "add"]
+- ["OC9LeanCloud9Operation4Name", "addRelation"]
+- ["OC9LeanCloud9Operation4Name", "addUnique"]
+- ["OC9LeanCloud9Operation4Name", "deinit"]
+- ["OC9LeanCloud9Operation4Name", "delete"]
+- ["OC9LeanCloud9Operation4Name", "hashValue"]
+- ["OC9LeanCloud9Operation4Name", "increment"]
+- ["OC9LeanCloud9Operation4Name", "init"]
+- ["OC9LeanCloud9Operation4Name", "rawValue"]
+- ["OC9LeanCloud9Operation4Name", "remove"]
+- ["OC9LeanCloud9Operation4Name", "removeRelation"]
+- ["OC9LeanCloud9Operation4Name", "set"]
+- !private ["CC9LeanCloud16OperationReducer6Number", "LCValueExtension"]
+- ["CC9LeanCloud16OperationReducer6Number", "Operation"]
+- ["CC9LeanCloud16OperationReducer6Number", "deinit"]
+- ["CC9LeanCloud16OperationReducer6Number", "init"]
+- ["CC9LeanCloud16OperationReducer6Number", "operation"]
+- ["CC9LeanCloud16OperationReducer6Number", "operations"]
+- ["CC9LeanCloud16OperationReducer6Number", "reduce"]
+- ["CC9LeanCloud16OperationReducer6Number", "validOperationNames"]
+- !private ["C9LeanCloud14ObjectProfiler", "getLCValue"]
+- ["C9LeanCloud9Operation", "AnyObject"]
+- !private ["C9LeanCloud9Operation", "LCArray"]
+- !private ["C9LeanCloud9Operation", "LCError"]
+- !private ["C9LeanCloud9Operation", "LCNumber"]
+- !private ["C9LeanCloud9Operation", "LCRelation"]
+- ["C9LeanCloud9Operation", "LCValue"]
+- !private ["C9LeanCloud9Operation", "LCValueExtension"]
+- !private ["C9LeanCloud9Operation", "NSString"]
+- ["C9LeanCloud9Operation", "Name"]
+- !private ["C9LeanCloud9Operation", "Operation"]
+- ["C9LeanCloud9Operation", "OperationReducer"]
+- ["C9LeanCloud9Operation", "String"]
+- ["C9LeanCloud9Operation", "deinit"]
+- ["C9LeanCloud9Operation", "init"]
+- ["C9LeanCloud9Operation", "key"]
+- ["C9LeanCloud9Operation", "lconValue"]
+- ["C9LeanCloud9Operation", "name"]
+- ["C9LeanCloud9Operation", "reducerType"]
+- ["C9LeanCloud9Operation", "validateKey"]
+- ["C9LeanCloud9Operation", "value"]
+- !private ["C9LeanCloud12OperationHub", "Array"]
+- ["C9LeanCloud12OperationHub", "Bool"]
+- ["C9LeanCloud12OperationHub", "LCObject"]
+- !private ["C9LeanCloud12OperationHub", "ObjectProfiler"]
+- ["C9LeanCloud12OperationHub", "Operation"]
+- ["C9LeanCloud12OperationHub", "OperationReducer"]
+- ["C9LeanCloud12OperationHub", "OperationStack"]
+- ["C9LeanCloud12OperationHub", "OperationTable"]
+- ["C9LeanCloud12OperationHub", "OperationTableList"]
+- ["C9LeanCloud12OperationHub", "String"]
+- ["C9LeanCloud12OperationHub", "deinit"]
+- ["C9LeanCloud12OperationHub", "extractOperationTable"]
+- ["C9LeanCloud12OperationHub", "init"]
+- ["C9LeanCloud12OperationHub", "isEmpty"]
+- ["C9LeanCloud12OperationHub", "object"]
+- ["C9LeanCloud12OperationHub", "operationReducerTable"]
+- ["C9LeanCloud12OperationHub", "operationReducerType"]
+- ["C9LeanCloud12OperationHub", "operationStack"]
+- ["C9LeanCloud12OperationHub", "operationTableList"]
+- ["C9LeanCloud12OperationHub", "reduce"]
+- ["C9LeanCloud12OperationHub", "reset"]
+- ["C9LeanCloud12OperationHub", "unreducedOperationTable"]
+- ["C9LeanCloud16OperationReducer", "Array"]
+- ["C9LeanCloud16OperationReducer", "Bool"]
+- ["C9LeanCloud16OperationReducer", "Key"]
+- !private ["C9LeanCloud16OperationReducer", "LCArray"]
+- !private ["C9LeanCloud16OperationReducer", "LCError"]
+- !private ["C9LeanCloud16OperationReducer", "LCValueExtension"]
+- ["C9LeanCloud16OperationReducer", "Number"]
+- ["C9LeanCloud16OperationReducer", "Operation"]
+- ["C9LeanCloud16OperationReducer", "OperationReducer"]
+- ["C9LeanCloud16OperationReducer", "Relation"]
+- ["C9LeanCloud16OperationReducer", "Set"]
+- !private ["C9LeanCloud16OperationReducer", "Swift"]
+- ["C9LeanCloud16OperationReducer", "addObjects"]
+- ["C9LeanCloud16OperationReducer", "deinit"]
+- ["C9LeanCloud16OperationReducer", "hasObjects"]
+- ["C9LeanCloud16OperationReducer", "hasOperation"]
+- ["C9LeanCloud16OperationReducer", "init"]
+- ["C9LeanCloud16OperationReducer", "operation"]
+- ["C9LeanCloud16OperationReducer", "operationTable"]
+- ["C9LeanCloud16OperationReducer", "operations"]
+- ["C9LeanCloud16OperationReducer", "reduce"]
+- ["C9LeanCloud16OperationReducer", "removeEmptyOperation"]
+- ["C9LeanCloud16OperationReducer", "removeObjects"]
+- ["C9LeanCloud16OperationReducer", "reset"]
+- ["C9LeanCloud16OperationReducer", "setOperation"]
+- ["C9LeanCloud16OperationReducer", "validOperationNames"]
+- ["C9LeanCloud16OperationReducer", "validate"]
+- ["C9LeanCloud16OperationReducer", ""]
+- !private ["Ps9OptionSet", "caseInsensitive"]
+- !private ["Ps9OptionSet", "regularExpression"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "contains"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "first"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "isEmpty"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "contains"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "first"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "isEmpty"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- ["Ps16RawRepresentable", "_toAnyHashable"]
+- ["Ps16RawRepresentable", "add"]
+- ["Ps16RawRepresentable", "addRelation"]
+- ["Ps16RawRepresentable", "addUnique"]
+- !private ["Ps16RawRepresentable", "caseInsensitive"]
+- ["Ps16RawRepresentable", "delete"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "increment"]
+- ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "invalidType"]
+- !private ["Ps16RawRepresentable", "malformedData"]
+- ["Ps16RawRepresentable", "rawValue"]
+- !private ["Ps16RawRepresentable", "regularExpression"]
+- ["Ps16RawRepresentable", "remove"]
+- ["Ps16RawRepresentable", "removeRelation"]
+- ["Ps16RawRepresentable", "set"]
+- ["Ps16RawRepresentable", ""]
+- ["CC9LeanCloud16OperationReducer8Relation", "Operation"]
+- !private ["CC9LeanCloud16OperationReducer8Relation", "addObjects"]
+- ["CC9LeanCloud16OperationReducer8Relation", "deinit"]
+- ["CC9LeanCloud16OperationReducer8Relation", "init"]
+- ["CC9LeanCloud16OperationReducer8Relation", "reduce"]
+- !private ["CC9LeanCloud16OperationReducer8Relation", "removeObjects"]
+- ["CC9LeanCloud16OperationReducer8Relation", "validOperationNames"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "concatenate"]
+- !private ["Ps8Sequence", "contains"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "differ"]
+- !private ["Ps8Sequence", "first"]
+- !private ["Ps8Sequence", "forEach"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "isEmpty"]
+- !private ["Ps8Sequence", "removeValue"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps8Sequence", "value"]
+- !private ["Ps8Sequence", "values"]
+- !private ["OV9LeanCloud7LCError15ServerErrorCode", "invalidType"]
+- !private ["OV9LeanCloud7LCError15ServerErrorCode", "malformedData"]
+- !private ["Vs3Set", "forEach"]
+- !private ["Ps10SetAlgebra", "caseInsensitive"]
+- !private ["Ps10SetAlgebra", "forEach"]
+- !private ["Ps10SetAlgebra", "regularExpression"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps13SignedInteger", "invalidType"]
+- !private ["Ps13SignedInteger", "malformedData"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps12SignedNumber", "invalidType"]
+- !private ["Ps12SignedNumber", "malformedData"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps10Strideable", "invalidType"]
+- !private ["Ps10Strideable", "malformedData"]
+- ["SS", "init"]
+- !private ["SS", "range"]
+- ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "range"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "range"]
+- ["P9Alamofire14URLConvertible", "init"]
+- !private ["P9Alamofire14URLConvertible", "range"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps14_ArrayProtocol", "contains"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "first"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps14_ArrayProtocol", "isEmpty"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- !private ["Ps23_BidirectionalIndexable", "contains"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "first"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "isEmpty"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "contains"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "first"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "isEmpty"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "range"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "invalidType"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "malformedData"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "range"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "range"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "range"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "range"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "CompareOptions"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "range"]
+- !private ["Ps9_Hashable", "CompareOptions"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "add"]
+- ["Ps9_Hashable", "addRelation"]
+- ["Ps9_Hashable", "addUnique"]
+- !private ["Ps9_Hashable", "concatenate"]
+- ["Ps9_Hashable", "delete"]
+- !private ["Ps9_Hashable", "differ"]
+- !private ["Ps9_Hashable", "forEach"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "increment"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "invalidType"]
+- !private ["Ps9_Hashable", "malformedData"]
+- !private ["Ps9_Hashable", "range"]
+- ["Ps9_Hashable", "rawValue"]
+- ["Ps9_Hashable", "remove"]
+- ["Ps9_Hashable", "removeRelation"]
+- ["Ps9_Hashable", "set"]
+- !private ["Ps9_Hashable", "value"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps14_Incrementable", "invalidType"]
+- !private ["Ps14_Incrementable", "malformedData"]
+- !private ["Ps10_Indexable", "append"]
+- !private ["Ps10_Indexable", "concatenate"]
+- !private ["Ps10_Indexable", "contains"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "differ"]
+- !private ["Ps10_Indexable", "first"]
+- !private ["Ps10_Indexable", "forEach"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "isEmpty"]
+- !private ["Ps10_Indexable", "removeValue"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps10_Indexable", "value"]
+- !private ["Ps10_Indexable", "values"]
+- !private ["Ps14_IndexableBase", "append"]
+- !private ["Ps14_IndexableBase", "concatenate"]
+- !private ["Ps14_IndexableBase", "contains"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "differ"]
+- !private ["Ps14_IndexableBase", "first"]
+- !private ["Ps14_IndexableBase", "forEach"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "isEmpty"]
+- !private ["Ps14_IndexableBase", "removeValue"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps14_IndexableBase", "value"]
+- !private ["Ps14_IndexableBase", "values"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps8_Integer", "invalidType"]
+- !private ["Ps8_Integer", "malformedData"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "invalidType"]
+- !private ["Ps18_IntegerArithmetic", "malformedData"]
+- !private ["Ps17_MutableIndexable", "append"]
+- !private ["Ps17_MutableIndexable", "contains"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "first"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps17_MutableIndexable", "isEmpty"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "contains"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "first"]
+- !private ["Ps21_ObjectiveCBridgeable", "forEach"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "invalidType"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["Ps21_ObjectiveCBridgeable", "malformedData"]
+- !private ["Ps21_ObjectiveCBridgeable", "range"]
+- !private ["Ps21_ObjectiveCBridgeable", "removeValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "values"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- !private ["Ps22_RandomAccessIndexable", "contains"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "first"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "isEmpty"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- !private ["Ps26_RangeReplaceableIndexable", "contains"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "first"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "isEmpty"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps14_SignedInteger", "invalidType"]
+- !private ["Ps14_SignedInteger", "malformedData"]
+- !private ["Ps11_Strideable", "hashValue"]
+- !private ["Ps11_Strideable", "invalidType"]
+- !private ["Ps11_Strideable", "malformedData"]
+depends-nominal:
+- "Ps9AnyObject"
+- "CC9LeanCloud16OperationReducer5Array"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- !private "VCSo8NSString14CompareOptions"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "OV9LeanCloud7LCError17InternalErrorCode"
+- "CC9LeanCloud16OperationReducer3Key"
+- !private "C9LeanCloud7LCArray"
+- !private "P9LeanCloud18LCArrayConvertible"
+- !private "P9LeanCloud17LCBoolConvertible"
+- !private "P9LeanCloud23LCDictionaryConvertible"
+- !private "V9LeanCloud7LCError"
+- !private "P9LeanCloud19LCNumberConvertible"
+- "P9LeanCloud19LCStringConvertible"
+- !private "P9LeanCloud7LCValue"
+- "P9LeanCloud18LCValueConvertible"
+- !private "P9LeanCloud16LCValueExtension"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "OC9LeanCloud9Operation4Name"
+- "CC9LeanCloud16OperationReducer6Number"
+- !private "C9LeanCloud14ObjectProfiler"
+- "C9LeanCloud9Operation"
+- "C9LeanCloud12OperationHub"
+- "C9LeanCloud16OperationReducer"
+- !private "Ps9OptionSet"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- "Ps16RawRepresentable"
+- "CC9LeanCloud16OperationReducer8Relation"
+- !private "Ps8Sequence"
+- !private "OV9LeanCloud7LCError15ServerErrorCode"
+- !private "Vs3Set"
+- !private "Ps10SetAlgebra"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "P9Alamofire14URLConvertible"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/mac/Desktop/Young\u5FC3\u7406/DerivedData/Young\u5FC3\u7406/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mac/Desktop/Young\u5FC3\u7406/Pods/Target Support Files/LeanCloud/LeanCloud-umbrella.h"
+- "/Users/mac/Desktop/Young\u5FC3\u7406/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/mac/Desktop/Young\u5FC3\u7406/DerivedData/Young\u5FC3\u7406/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/mac/Desktop/Young\u5FC3\u7406/DerivedData/Young\u5FC3\u7406/Build/Intermediates/Pods.build/Debug-iphonesimulator/LeanCloud.build/unextended-module.modulemap"
+- "/Users/mac/Desktop/Young\u5FC3\u7406/DerivedData/Young\u5FC3\u7406/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+interface-hash: "feff5bd6161e567c68bb559fb4bb15f3"
