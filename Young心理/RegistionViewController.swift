@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import LeanCloud
 
 class RegistionViewController: UIViewController {
 
@@ -25,8 +26,28 @@ class RegistionViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func register(_ sender: Any) {
+    @IBAction func getCode(_ sender: Any) {
+        LCUser.requestVerificationCode(mobilePhoneNumber: "18821786571")
         
+    }
+    @IBAction func register(_ sender: Any) {
+//        保存用户名、密码、邮箱、电话
+        let randomUser = LCUser()
+
+        randomUser.username = LCString(UserName.text!)
+        randomUser.password = LCString(Password.text!)
+        randomUser.email = LCString(Email.text!)
+        randomUser.mobilePhoneNumber = LCString(TelephoneNumber.text!)
+        LCUser.verifyMobilePhoneNumber(TelephoneNumber.text!, verificationCode: VerificationNumber.text!){ result in
+            switch result {
+            case .success:
+//                randomUser.signUp()
+                break
+            case .failure(let error):
+                print(error)
+            }
+        }
+        randomUser.signUp()
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

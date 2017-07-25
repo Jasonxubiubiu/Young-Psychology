@@ -14,6 +14,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    @IBAction func gotoUserInterface(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "LoginAndRegistration", bundle: nil)
+        let vc = storyboard.instantiateInitialViewController()
+        self.navigationController?.pushViewController(vc!, animated: true)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

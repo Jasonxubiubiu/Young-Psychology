@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import Young__
+@testable import Young心理
 
 class Young__Tests: XCTestCase {
     
